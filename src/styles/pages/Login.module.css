@@ -1,0 +1,47 @@
+.container {
+  background-color: var(--color-blue);
+  height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.container .logo img {
+  position: absolute;
+  left: 0rem;
+  height: 80vh;
+}
+
+.containerRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.containerLogo {
+  margin-bottom: 8rem;
+}
+
+.containerLogin {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.containerLogin strong {
+  color: #fff;
+  font: 500 2.25rem 'Inter', sans-serif;
+  margin-bottom: 2rem;
+}
+
+.containerGithub {
+  font: 400 1.25rem 'Inter', sans-serif;
+  color: var(--color-text-highlight);
+  display: flex;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+
+.containerGithub img {
+  margin-right: 1rem;
+  width: 4rem;
+}
