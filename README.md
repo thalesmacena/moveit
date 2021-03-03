@@ -1,6 +1,6 @@
 <div align="center">
   <br />
-  <img src=".github/logo-full.svg" width="546" alt="Move.It" />
+  <a href="https://moveit-one-sand.vercel.app/"><img src=".github/logo-full.svg" width="546" alt="Move.It" /></a>
   <br />
   <p>
     <img src="https://img.shields.io/badge/made%20by-Thales%20Macena-2D325E?labelColor=F0DB4F&style=for-the-badge&logo=visual-studio-code&logoColor=2D325E" alt="Made by Thales Macena">
@@ -14,6 +14,7 @@
 ## Table of contents
 - [Table of contents](#table-of-contents)
 - [About](#about)
+- [View the Project](#view-the-project)
 - [Installation](#installation)
 - [Running](#running)
   
@@ -21,6 +22,10 @@
 Moveit is an application focused on the pomodoro technique, many people spend a lot of time in front of the computer and do not stretch or rest their vision. Thinking about it the application has a timer and several exercises based on renowned books and websites, to increase productivity without jeopardizing health and well-being.
 
 The application is built with React using next.js framework, and the native hooks API. It was presented and built during the Next Level Week given by [Rocketseat](https://github.com/Rocketseat).
+
+## View the Project
+
+<p>There is a version of the application running on Vercel, you can check it by clicking <a href="https://moveit-one-sand.vercel.app/">here <img src="/logo.png" alt="Move.it" width="50" height="50"/></a></ p>
 
 ## Installation
 Open a terminal and run the following commands:
