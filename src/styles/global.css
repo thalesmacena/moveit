@@ -1,0 +1,49 @@
+:root{
+  --color-white: #fff;
+  --color-background: #f2f3f5;
+  --color-gray-line: #dcdde0;
+  --color-text: #666666;
+  --color-text-highlight: #b2b9ff;
+  --color-title: #2e384d;
+  --color-red: #e83f5b;
+  --color-green: #4cd62b;
+  --color-blue: #5965e0;
+  --color-blue-dark: #4953b8;
+  --color-blue-twitter: #2aa9e0;
+  font-size: 100%;
+}
+
+/* Reseta o css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media(max-width: 1080px) {
+  html {
+    font-size: 93.75%;
+  }
+}
+
+@media(max-width: 1080px) {
+  html {
+    font-size: 93.75%;
+  }
+}
+
+@media(max-width: 720px) {
+  html {
+    font-size: 87.5%;
+  }
+}
+
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-text);
+}
+
+body, input, textarea, button {
+  font: 400 1rem 'Inter', sans-serif;
+}
