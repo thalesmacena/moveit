@@ -1,0 +1,61 @@
+.inputLoginContainer form {
+  display: flex;
+  flex-wrap: wrap;
+  border: 0;
+}
+
+.inputLoginContainer input {
+  width: 21.25rem;
+  height: 5rem;
+  
+  border: 0;
+  border-radius: 0.5rem 0 0 0.5rem;
+  
+  padding-left: 3.4rem;
+  font: 400 1.25rem 'Inter', sans-serif;
+
+  color: var(--color-text-highlight);
+  background: var(--color-blue-dark);
+  background: linear-gradient(90deg, var(--color-blue-dark) 0%, rgba(73,83,184,0.2) 100%);
+}
+
+.inputLoginContainer input:focus {
+  outline: none !important;
+  border:  2px solid #414AA3 !important;
+  color: var(--color-white);
+}
+
+.inputLoginContainer input::placeholder {
+  color: #c4c4c4;
+  opacity: 1;
+}
+
+.inputLoginContainer input:focus::placeholder {
+  color: transparent;
+}
+
+.inputLoginContainer button {
+  height: 5rem;
+  width: 5rem;
+  border: 0;
+  border-radius: 0 0.5rem 0.5rem 0;
+  background-color: var(--color-blue-dark);
+}
+
+.inputLoginContainer button.buttonAble {
+  background-color: var(--color-green);
+  transition: background-color 0.2s;
+  cursor: pointer;
+}
+
+.inputLoginContainer button.buttonError {
+  background-color: var(--color-red)
+}
+
+.inputLoginContainer button.buttonAble:hover:enabled {
+  background-color: #4ecf30;
+}
+
+.inputLoginContainer button:focus {
+  outline: none !important;
+}
