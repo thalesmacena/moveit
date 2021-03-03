@@ -25,7 +25,7 @@ The application is built with React using next.js framework, and the native hook
 
 ## View the Project
 
-<p>There is a version of the application running on Vercel, you can check it by clicking <a href="https://moveit-one-sand.vercel.app/">here <img src="/logo.png" alt="Move.it" width="50" height="50"/></a></ p>
+<p>There is a version of the application running on Vercel, you can check it by clicking <a href="https://moveit-one-sand.vercel.app/">here <img src=".github/logo.png" alt="Move.it" width="50" height="50"/></a></ p>
 
 ## Installation
 Open a terminal and run the following commands:
