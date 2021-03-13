@@ -1,5 +1,4 @@
 /* eslint-disable react-hooks/exhaustive-deps */
-/* eslint-disable prettier/prettier */
 import {
   createContext,
   ReactNode,
@@ -74,7 +73,7 @@ export const CountdownProvider = ({ children }: CountdownProviderProps) => {
         startCountdown,
         progress,
         minutes,
-        seconds,
+        seconds
       }}
     >
       {children}

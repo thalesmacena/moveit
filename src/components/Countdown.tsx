@@ -10,7 +10,7 @@ export const Countdown = () => {
     startCountdown,
     progress,
     minutes,
-    seconds,
+    seconds
   } = useContext(CountdownContext);
 
   const [minuteLeft, minuteRight] = String(minutes).padStart(2, '0').split('');

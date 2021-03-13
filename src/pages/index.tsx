@@ -47,7 +47,7 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
   return {
     props: {
       username: String(username),
-      avatar: String(avatar),
-    },
+      avatar: String(avatar)
+    }
   };
 };

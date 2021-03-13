@@ -7,7 +7,7 @@ export const ChallengeBox = () => {
   const {
     activeChallenge,
     resetActiveChallenge,
-    completeChallenge,
+    completeChallenge
   } = useContext(ChallengesContext);
 
   const { resetCountdown } = useContext(CountdownContext);

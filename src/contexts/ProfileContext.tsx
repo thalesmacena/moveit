@@ -75,7 +75,7 @@ export const ProfileProvider = ({
         avatar,
         isFound,
         loading,
-        cleanError,
+        cleanError
       }}
     >
       {children}

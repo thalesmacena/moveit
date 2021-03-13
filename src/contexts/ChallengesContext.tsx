@@ -79,7 +79,7 @@ export const ChallengesProvider = ({
     if (Notification.permission === 'granted') {
       // eslint-disable-next-line no-new
       new Notification('Novo desafio 🎉', {
-        body: `Valendo: ${challenge.amount}xp`,
+        body: `Valendo: ${challenge.amount}xp`
       });
     }
   };
@@ -119,7 +119,7 @@ export const ChallengesProvider = ({
         levelUp,
         activeChallenge,
         challengesCompleted,
-        closeLevelUpModal,
+        closeLevelUpModal
       }}
     >
       {children}
