@@ -1,0 +1,27 @@
+.logoutButtonContainer {
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
+
+.logoutButtonContainer p {
+  color: var(--color-text);
+}
+
+.logoutButtonContainer:hover {
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
+
+.logoutButtonContainer button {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.logoutButtonContainer img {
+  margin-right: 0.5rem;
+}
+
+.logoutButtonContainer img:hover {
+  fill: white;
+}

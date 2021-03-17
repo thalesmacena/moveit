@@ -44,6 +44,15 @@ export default Login;
 export const getServerSideProps: GetServerSideProps = async (ctx) => {
   const { username, avatar } = ctx.req.cookies;
 
+  if (username) {
+    return {
+      redirect: {
+        destination: '/moveit',
+        permanent: false
+      }
+    };
+  }
+
   return {
     props: {
       username: String(username),
