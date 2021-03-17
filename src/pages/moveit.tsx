@@ -63,6 +63,15 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
     avatar
   } = ctx.req.cookies;
 
+  if (username === 'undefined') {
+    return {
+      redirect: {
+        destination: '/',
+        permanent: false
+      }
+    };
+  }
+
   return {
     props: {
       level: Number(level),
