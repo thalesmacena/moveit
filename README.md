@@ -11,23 +11,34 @@
   </p>
 </div>
 
-## Table of contents
-- [Table of contents](#table-of-contents)
-- [About](#about)
-- [View the Project](#view-the-project)
-- [Installation](#installation)
-- [Running](#running)
+## 🗂 Table of contents
+- [🗂 Table of contents](#-table-of-contents)
+- [📑 About](#-about)
+- [🕵️‍♂️ view the project](#️️-view-the-project)
+- [💻 Technologies](#-technologies)
+- [✨ Installation](#-installation)
+- [🔥 Running](#-running)
   
-## About
+## 📑 About
 Moveit is an application focused on the pomodoro technique, many people spend a lot of time in front of the computer and do not stretch or rest their vision. Thinking about it the application has a timer and several exercises based on renowned books and websites, to increase productivity without jeopardizing health and well-being.
 
 The application is built with React using next.js framework, and the native hooks API. It was presented and built during the Next Level Week given by [Rocketseat](https://github.com/Rocketseat).
 
-## View the Project
+## 🕵️‍♂️ View the Project
 
 <p>There is a version of the application running on Vercel, you can check it by clicking <a href="https://moveit-one-sand.vercel.app/">here <img src=".github/logo.png" alt="Move.it" width="50" height="50"/></a></ p>
 
-## Installation
+## 💻 Technologies
+
+<a href="https://yarnpkg.com/"><img src="https://img.shields.io/badge/-Yarn-2D325E?labelColor=F0DB4F&style=for-the-badge&logo=yarn&logoColor=2D325E" alt="Yarn"></a>
+
+<a href="https://reactjs.org/"><img src="https://img.shields.io/badge/-React-2D325E?labelColor=F0DB4F&style=for-the-badge&logo=react&logoColor=2D325E" alt="React"></a>
+
+<a href="https://nextjs.org/"><img src="https://img.shields.io/badge/-Next.js-2D325E?labelColor=F0DB4F&style=for-the-badge&logo=next.js&logoColor=2D325E" alt="Next.js"></a>
+
+<a href="https://styled-components.com/"><img src="https://img.shields.io/badge/-Styled%20Components-2D325E?labelColor=F0DB4F&style=for-the-badge&logo=styled-components&logoColor=2D325E" alt="Styled Components"></a>
+
+## ✨ Installation
 Open a terminal and run the following commands:
 
 ```PowerShell
@@ -41,7 +52,7 @@ cd moveit
 yarn
 ```
 
-## Running
+## 🔥 Running
 You can run the application in development mode with the command:
 
 ```PowerShell
